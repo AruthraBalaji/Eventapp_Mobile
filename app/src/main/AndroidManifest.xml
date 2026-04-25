@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aruthra.eventapp">
+
+    <!-- ✅ Required -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="Event App"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- LOGIN SCREEN (START) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- REGISTER -->
+        <activity android:name=".RegisterActivity" android:exported="false"/>
+
+        <!-- HOME -->
+        <activity android:name=".HomeActivity" android:exported="false"/>
+
+        <!-- CREATE EVENT -->
+        <activity android:name=".CreateEventActivity" android:exported="false"/>
+        <activity android:name=".EventListActivity"/>
+        <activity android:name=".EventDetailActivity"/>
+    </application>
+</manifest>

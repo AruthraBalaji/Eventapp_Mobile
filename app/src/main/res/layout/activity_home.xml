@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome 👋"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333"/>
+
+    <!-- CREATE EVENT -->
+    <Button
+        android:id="@+id/createEventBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Create Event"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#fff"/>
+
+    <!-- VIEW EVENTS -->
+    <Button
+        android:id="@+id/viewEventsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 View Events"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#fff"/>
+
+    <!-- LOGOUT -->
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#E53935"
+        android:textColor="#fff"/>
+
+</LinearLayout>

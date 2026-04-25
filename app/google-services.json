@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302995619329",
+    "project_id": "eventapp-a3df7",
+    "storage_bucket": "eventapp-a3df7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302995619329:android:e56d12044f053af67e8a00",
+        "android_client_info": {
+          "package_name": "com.aruthra.eventapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAdps1qf85lIAwfkPd5DVLQf_i9LLwGsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
